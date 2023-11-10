@@ -140,12 +140,10 @@ main {
   max-width: 120rem;
   width: min(100% - 3rem, 108rem);
   margin-inline: auto;
-  /* padding: 2rem; */
   box-sizing: border-box;
 }
 
 .gallery {
-  /* border: 0.1rem solid var(--app-background-light); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,7 +155,6 @@ main {
   border-radius: 0.4rem;
   border: 0.1rem solid transparent;
   width: 30rem;
-  height: 30rem;
   text-align: center;
   box-shadow: 2rem 2rem 4rem -3rem #000;
   display: flex;
@@ -168,6 +165,10 @@ main {
   background-color: var(--grey);
   padding: 1rem;
   transition: all 0.3s ease-in-out;
+}
+
+.card p:nth-child(1) {
+  font-weight: 700;
 }
 
 .card:hover {
@@ -278,10 +279,6 @@ p {
   text-align: center;
 }
 
-.flex-container > * {
-  outline: auto;
-}
-
 .flex-container p {
   padding: 2rem 0;
 }
@@ -298,7 +295,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3rem;
+    gap: 4rem;
     line-height: 2;
     text-align: left;
   }
