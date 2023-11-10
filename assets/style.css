@@ -297,7 +297,7 @@ p {
   .flex-container div:nth-child(1) {
     flex-basis: 1;
   }
-  
+
   .flex-container div:nth-child(2) {
     flex-shrink: 1.75;
   }
@@ -307,4 +307,16 @@ footer {
   background-color: var(--app-background-dark);
   text-align: center;
   padding: 5rem 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 0;
+}
+
+.links img {
+  width: 3rem;
 }
