@@ -231,3 +231,9 @@ p {
   height: 3rem;
   width: 3rem;
 }
+
+footer {
+  background-color: var(--app-background-dark);
+  text-align: center;
+  padding: 5rem 0;
+}
