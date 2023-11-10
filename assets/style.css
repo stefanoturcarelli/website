@@ -179,8 +179,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
-  padding: 20rem 0;
+  gap: 7rem;
+  padding: 10rem 0;
 }
 
 .hero-banner {
@@ -192,6 +192,27 @@ section {
   gap: 4rem;
   position: relative;
   text-align: center;
+}
+
+nav {
+  width: 100dvw;
+  position: fixed;
+  top: 0;
+  padding: 1rem 0;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav img {
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: var(--grey);
+  border-radius: 5rem;
+  border: 0.1rem solid transparent;
+  transition: 0.3s all ease-in-out;
 }
 
 h2 {
@@ -215,7 +236,7 @@ p {
 
 .btn {
   background-color: var(--app-accent-color-1);
-  color: var(--grey);
+  color: var(--app-background-light);
   padding: 1rem;
   border-radius: 5rem;
   width: 13rem;
