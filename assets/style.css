@@ -126,17 +126,17 @@ a {
 }
 
 body {
-	position: relative;
-	background: url(./img/gif-background.gif) top no-repeat;
-	background-size: cover;
+  position: relative;
+  background: url(./img/gif-background.gif) top no-repeat;
+  background-size: cover;
 }
 
 main {
-	background-color: var(--app-background-dark);
+  background-color: var(--app-background-dark);
 }
 
 .container {
-	max-width: 120rem;
+  max-width: 120rem;
   width: min(100% - 3rem, 108rem);
   margin-inline: auto;
   /* padding: 2rem; */
@@ -148,11 +148,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-	gap: 2rem;
+  gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .card {
   border-radius: 0.4rem;
+  border: 0.1rem solid transparent;
   width: 30rem;
   height: 30rem;
   text-align: center;
@@ -162,18 +164,22 @@ main {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-	background-color: var(--grey);
-	padding: 1rem;
+  background-color: var(--grey);
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  border: 0.1rem solid var(--app-accent-color-1);
 }
 
 section {
-	height: 100dvh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 10rem;
-	margin: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  padding: 20rem 0;
 }
 
 .hero-banner {
@@ -183,45 +189,44 @@ section {
   justify-content: center;
   align-items: center;
   gap: 4rem;
-	position: relative;
-	text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 h2 {
-	font-size: 5rem;
-	line-height: 1;
+  font-size: 5rem;
+  line-height: 1;
 }
 
 p {
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 .hero-banner::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-	z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  height: inherit;
+  width: 100dvw;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }
 
 .btn {
-	background-color: var(--app-accent-color-1);
-	color: var(--grey);
-	padding: 1rem;
-	border-radius: 5rem;
-	width: 13rem;
-	text-align: center;
-	font-size: 1.6rem;
-	font-weight: 500;
+  background-color: var(--app-accent-color-1);
+  color: var(--grey);
+  padding: 1rem;
+  border-radius: 5rem;
+  width: 13rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .mail {
-	position: fixed;
-	bottom: 3rem;
-	right: 3rem;
-	height: 3rem;
-	width: 3rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  height: 3rem;
+  width: 3rem;
 }
