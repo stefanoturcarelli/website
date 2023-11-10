@@ -128,7 +128,8 @@ a {
 
 body {
   position: relative;
-  background: url(./img/gif-background.gif) top no-repeat;
+  background: url(./img/gif-background.gif) no-repeat;
+  background-position-x: center;
   background-size: cover;
 }
 
@@ -283,7 +284,6 @@ p {
   padding: 2rem 0;
 }
 
-
 .flex-container div:nth-child(1) {
   display: flex;
   justify-content: center;
@@ -308,7 +308,7 @@ p {
   .flex-container div:nth-child(1) {
     flex-basis: 1;
   }
-  
+
   .flex-container div:nth-child(2) {
     flex-shrink: 1.75;
   }
