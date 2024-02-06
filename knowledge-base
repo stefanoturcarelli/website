@@ -1,0 +1,68 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+	<!-- Head tags based on HTML5 Boilerplate -->
+	<!-- https://github.com/h5bp/html5-boilerplate-template -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stefano Turcarelli</title>
+
+	<meta name="description" content="Portfolio Website">
+	<meta name="theme-color" content="#fafafa">
+
+	<meta property="og:title" content="Stefano Turcarelli | Portfolio Website">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://stefanoturcarelli.github.io/website/">
+	<meta property="og:image" content="https://avatars.githubusercontent.com/u/67341828?v=4">
+
+	<link rel="icon" href="./assets/img/favicon.png" sizes="any">
+	<!-- <link rel="icon" href="/icon.svg" type="image/svg+xml"> -->
+	<link rel="apple-touch-icon" href="./assets/img/favicon.png">
+	<link rel="stylesheet" href="./assets/style.css">
+	<script src="./assets/script.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="hero-banner">
+				<nav class="container">
+					<a href="#">
+						<h1>Stefano Turcarelli</h1>
+					</a>
+					<a href="#">
+						<img src="./assets/img/favicon.png" alt="Theme change">
+					</a>
+				</nav>
+				<h2>Software Developer</h2>
+				<p>Mastering the Digital Canvas</p>
+				<a class="btn" href="#projects">See projects</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+  					<center><a href="#">
+						<img src="https://stefanoturcarelli.notion.site/Introduction-to-LINQ-and-ASP-NET-MVC-3ce24ad44d91405eab6fc199c63541fe" alt="Introduction to LINQ and ASP.NET MVC">
+					</a></center>
+  </div>
+	</main>
+	<noscript>
+		<p>This website needs a JavaScript browser</p>
+	</noscript>
+	<footer>
+		<div class="container">
+			<div class="links">
+				<a href="https://www.linkedin.com/in/stefanoturcarelli" target="_blank">
+					<img src="./assets/img/linkedin-logo.png" alt="LinkedIn">
+				</a>
+				<a href="https://github.com/stefanoturcarelli" target="_blank">
+					<img src="./assets/img/github-logo.png" alt="GitHub">
+				</a>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
