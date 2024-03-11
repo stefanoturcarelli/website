@@ -31,12 +31,9 @@ p {
 /* Header section */
 
 header {
-  background-image: url(./img/alex-moliski-LnjXzju6MAw-unsplash.jpg);
-  background-color: var(--app-background-dark);
-  color: var(--app-font-color-light);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  color: #fff;
+  padding: 2rem 0;
+  background-color: #0000000a;
 }
 
 /* Main section */
@@ -47,6 +44,12 @@ main {
 }
 
 .hero-banner {
+  background-image: url(./img/alex-moliski-LnjXzju6MAw-unsplash.jpg);
+  background-color: var(--app-background-dark);
+  color: var(--app-font-color-light);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
   height: 100dvh;
   display: flex;
   flex-direction: column;
@@ -57,73 +60,19 @@ main {
   text-align: center;
 }
 
-nav {
-  width: 100dvw;
-  top: 0;
-  padding: 1rem 0;
-  text-align: left;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2rem;
-  position: absolute;
-  background-color: #82828214;
-}
-
-nav img {
-  height: 3.5rem;
-  width: 3.5rem;
-  background-color: var(--grey);
-  border-radius: 5rem;
-  border: 0.1rem solid transparent;
-  transition: 0.3s all ease-in-out;
-}
-
-.hero-banner::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  height: inherit;
-  width: 100dvw;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-}
-
-.mail {
-  position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  height: 5.5rem;
-  width: 5.5rem;
-  background-color: var(--grey);
-  border-radius: 5rem;
-  border: 0.1rem solid transparent;
-  transition: 0.3s all ease-in-out;
-}
-
-.mail:hover {
-  border: 0.1rem solid var(--dark-space);
-}
-
-.mail img {
-  padding: 1rem;
-}
-
 /* About section */
 
 .grid-container__about {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 2rem;
+  gap: 6rem;
   padding: 2rem 0;
   place-items: center;
 }
 
 .profile-image {
   border-radius: 50%;
-  width: 20rem;
   border: 0.5rem solid var(--app-accent-color-1);
-  margin: 0 auto;
 }
 /* Footer section */
 
@@ -182,10 +131,6 @@ footer {
   .hero-banner {
     gap: 2rem;
   }
-  nav img {
-    height: 3rem;
-    width: 3rem;
-  }
   .mail {
     height: 5rem;
     width: 5rem;
@@ -197,4 +142,24 @@ footer {
   #circle {
     display: none;
   }
+}
+
+.mail {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  height: 5.5rem;
+  width: 5.5rem;
+  background-color: var(--grey);
+  border-radius: 5rem;
+  border: 0.1rem solid transparent;
+  transition: 0.3s all ease-in-out;
+}
+
+.mail:hover {
+  border: 0.1rem solid var(--dark-space);
+}
+
+.mail img {
+  padding: 1rem;
 }
