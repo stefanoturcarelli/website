@@ -17,134 +17,85 @@
 	<meta property="og:image" content="https://avatars.githubusercontent.com/u/67341828?v=4">
 
 	<link rel="icon" href="./assets/img/favicon.png" sizes="any">
-	<!-- <link rel="icon" href="/icon.svg" type="image/svg+xml"> -->
 	<link rel="apple-touch-icon" href="./assets/img/favicon.png">
+	<link rel="stylesheet" href="./assets/reset.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<script src="./assets/script.js" defer></script>
 </head>
 
 <body>
+
 	<header>
 		<div class="container">
+			<a href="#">
+				<div id="circle">
+				</div>
+			</a>
 			<div class="hero-banner">
-				<nav class="container">
-					<a href="#">
-						<h1>Stefano Turcarelli</h1>
-					</a>
-					<a href="#">
-						<img src="./assets/img/favicon.png" alt="Theme change">
-					</a>
-				</nav>
+				<div class="container">
+					<nav>
+						<a href="https://stefanoturcarelli.com">
+							<h1>Stefano Turcarelli</h1>
+						</a>
+					</nav>
+				</div>
 				<h2>Software Developer</h2>
 				<p>Mastering the Digital Canvas</p>
 				<a class="btn" href="#projects">See projects</a>
 			</div>
 		</div>
 	</header>
+
 	<main>
-		<section id="projects" class="projects">
+		<!-- Projects Section -->
+		<!-- <section>
+			<h2>Projects</h2>
+		</section> -->
+
+		<!-- About Section -->
+		<section>
 			<div class="container">
-				<div class="flex">
-					<h2>Projects</h2>
-					<div class="gallery">
-						<a href="https://stefanoturcarelli.github.io/edupath-elearning/">
-							<div class="card">
-								<p>EduPath</p>
-								<img src="./assets/img/edupath.png" alt="EduPath Online Learning Project Screenshot">
-								<p>Online Learning Platform with courses</p>
-							</div>
-						</a>
-						<a href="https://stefanoturcarelli.github.io/client-detection/" target="_blank">
-							<div class="card">
-								<p>Client Detection</p>
-								<img src="./assets/img/client-detection.png" alt="Client Detection">
-								<p>Extracting information using the window object</p>
-							</div>
-						</a>
-						<a href="https://stefanoturcarelli.github.io/custom-modal-dialog/" target="_blank">
-							<div class="card">
-								<p>Custom Modal Dialog</p>
-								<img src="./assets/img/modal-dialog.png" alt="Custom Modal Dialog">
-								<p>Custom pop-up window with a contact form</p>
-							</div>
-						</a>
-						<a href="https://stefanoturcarelli.github.io/responsive-toggle-navigation-bar-menu/" target="_blank">
-							<div class="card">
-								<p>Toggle Menu</p>
-								<img src="./assets/img/grid-toggle-menu.png" alt="Toggle Menu">
-								<p>A toggle menu with a grid layout</p>
-							</div>
-						</a>
-						<a href="https://stefanoturcarelli.github.io/guessing-game/" target="_blank">
-							<div class="card">
-								<p>Guessing Game</p>
-								<img src="./assets/img/guessing-game.png" alt="Guessing Game">
-								<p>Try to guess a secret number between 1 and 10</p>
-							</div>
-						</a>
-						<a href="https://cateringbiencasero.com/" target="_blank">
-							<div class="card">
-								<p>Food Catering Business</p>
-								<img src="./assets/img/catering.png" alt="Catering Bien Casero">
-								<p>Food catering business website based in Argentina</p>
-							</div>
-						</a>
+				<div class="grid-container__about">
+					<img class="profile-image" src="https://avatars.githubusercontent.com/u/67341828?v=4"
+						alt="Stefano Turcarelli Portrait">
+					<div class="text-container">
+						<h2>About</h2>
+						<p>
+							I'm Stefano, a passionate Software Developer student at the Manitoba
+							Institute of Trades and Technology, proudly calling Winnipeg,
+							Manitoba, Canada 🍁, my second home.
+						</p>
+						<p>
+							I've always been fascinated by technology and the incredible ways it can improve people's lives.
+							My journey in the world of software development has been quite an adventure, filled with its fair share
+							of challenges and rewards.
+						</p>
 					</div>
-					<a class="btn" href="#about">About</a>
 				</div>
 			</div>
 		</section>
-		<section id="about" class="about">
-			<div class="container">
-				<div class="flex">
-					<h2>About</h2>
-					<div class="flex-container">
-						<div>
-							<img class="prof" src="https://avatars.githubusercontent.com/u/67341828?v=4"
-								alt="Stefano Turcarelli Portrait">
-						</div>
-						<div>
-							<p>
-								I'm Stefano, a passionate Software Developer student at the Manitoba
-								Institute of Trades and Technology, proudly calling Winnipeg,
-								Manitoba, Canada 🍁, my second home.
-							</p>
-							<p>
-								I've always been fascinated by technology and the incredible ways it can improve people's lives.
-								My journey in the world of software development has been quite an adventure, filled with its fair share
-								of
-								challenges and rewards.
-							</p>
-						</div>
-					</div>
-					<a class="btn" href="#contact">Contact</a>
-				</div>
-		</section>
-		<section id="contact" class="contact">
-			<div class="container">
-				<div class="flex">
-					<!-- <a href="#">
-						<div id="circle">
-						</div>
-					</a> -->
-					<h2>Contact</h2>
-					<p>
-						Interested in working with me? You can reach me on LinkedIn, GitHub, or send me an email.
-					</p>
-				</div>
+
+		<!-- Contact Section -->
+		<!-- <section>
+			<div>
+				<h2>Contact</h2>
+				<p>
+					Interested in working with me?
+				</p>
+				<p>
+					You can reach me on LinkedIn, GitHub, or send me an email.
+				</p>
 			</div>
-		</section>
-		</div>
-		<a class="mail" href="mailto:hello@stefanoturcarelli.com">
+		</section> -->
+
+		<a class="mail" href="mailto:stefano.turcarelli@outlook.com">
 			<img src="./assets/img/mail.png" alt="Send an email">
 		</a>
 	</main>
-	<noscript>
-		<p>This website needs a JavaScript browser</p>
-	</noscript>
+
 	<footer>
 		<div class="container">
-			<div class="links">
+			<div class="links-container">
 				<a href="https://www.linkedin.com/in/stefanoturcarelli" target="_blank">
 					<img src="./assets/img/linkedin-logo.png" alt="LinkedIn">
 				</a>
@@ -154,6 +105,11 @@
 			</div>
 		</div>
 	</footer>
+
+	<noscript>
+		<p>This website needs a JavaScript browser</p>
+	</noscript>
+
 </body>
 
 </html>
