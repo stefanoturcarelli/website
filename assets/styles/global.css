@@ -46,6 +46,7 @@ section {
 .container__about {
   display: grid;
   gap: 2rem;
+  text-align: center;
 }
 
 .container__about div {
