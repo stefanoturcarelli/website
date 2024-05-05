@@ -1,0 +1,11 @@
+:root {
+  --app-background-light: #eeeeee;
+  --app-font-color-light: var(--app-background-dark);
+  --app-background-dark: #13161b;
+  --app-font-color-dark: var(--app-background-light);
+  --grey: #393e46;
+  --app-accent-color-1: #00aeef;
+  --dark-space: #eeeeee;
+  --white: #eee;
+  --black: #13161b;
+}

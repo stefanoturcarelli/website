@@ -1,0 +1,28 @@
+@import url(/assets/styles/root.css);
+
+.mail {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  height: 5.5rem;
+  width: 5.5rem;
+  background-color: var(--grey);
+  border-radius: 5rem;
+  border: 0.1rem solid transparent;
+  transition: 0.3s all ease-in-out;
+}
+
+.mail:hover {
+  border: 0.1rem solid var(--dark-space);
+}
+
+.mail img {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .mail {
+    height: 5rem;
+    width: 5rem;
+  }
+}

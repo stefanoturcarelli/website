@@ -1,0 +1,25 @@
+@import url(/assets/styles/root.css);
+
+#circle {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  transition: all 5s ease-out;
+  cursor: pointer;
+  background-color: var(--app-accent-color-1);
+  background-image: url(./img/arrow.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  z-index: 100;
+}
+
+@media screen and (max-width: 768px) {
+  #circle {
+    display: none;
+  }
+}

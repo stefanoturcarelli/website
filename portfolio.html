@@ -1,211 +1,74 @@
-<style>
-	/* Reset CSS */
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
 
-	@charset "utf-8";
+<head>
+	<!-- Head tags based on HTML5 Boilerplate -->
+	<!-- https://github.com/h5bp/html5-boilerplate-template -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
 
-	*,
-	*::before,
-	*::after {
-		box-sizing: border-box;
-	}
+	<meta name="description" content="My Projects">
+	<meta name="theme-color" content="#fafafa">
 
-	* {
-		margin: 0;
-		padding: 0;
-		vertical-align: baseline;
-	}
+	<meta property="og:title" content="Stefano Turcarelli | My Projects">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://stefanoturcarelli.com/portfolio.html">
+	<meta property="og:image" content="https://avatars.githubusercontent.com/u/67341828?v=4">
 
-	html {
-		font-size: 62.5%;
-		scroll-behavior: smooth;
-		-webkit-text-size-adjust: none;
-		-moz-text-size-adjust: none;
-		text-size-adjust: none;
-	}
+	<link rel="icon" href="./assets/img/favicon.png" sizes="any">
+	<link rel="apple-touch-icon" href="./assets/img/favicon.png">
+	<link rel="stylesheet" href="/assets/styles/reset.css">
+	<link rel="stylesheet" href="/assets/styles/global.css">
+	<!-- <script src="/assets/scripts/circle.js" defer></script> -->
 
-	body {
-		min-height: 100dvh;
-		font-family: "Inter", Arial, Helvetica, sans-serif;
-		font-size: 1.6rem;
-		line-height: 1.5;
-		text-rendering: optimizeSpeed;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-		overflow-x: hidden;
-	}
+	<!-- Fonts Awesome -->
+	<!-- https://fontawesome.com/search?m=free&o=r -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-	h1,
-	h2,
-	h3,
-	h4 {
-		text-wrap: balance;
-	}
+	<!-- Google Fonts Inter -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+</head>
 
-	p,
-	h1,
-	h2,
-	h3,
-	h4 {
-		overflow-wrap: break-word;
-	}
-
-	ul[role="list"],
-	ol[role="list"] {
-		list-style: none;
-	}
-
-	a,
-	i,
-	figure,
-	img,
-	button,
-	input[type="button"],
-	input[type="submit"] {
-		-webkit-user-select: none;
-		-moz-user-select: none;
-		user-select: none;
-	}
-
-	img,
-	picture,
-	video,
-	canvas,
-	svg {
-		display: block;
-		max-width: 100%;
-	}
-
-	input,
-	textarea,
-	button,
-	select {
-		font: inherit;
-		border-style: none;
-		outline-style: none;
-	}
-
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
-	button,
-	a {
-		cursor: pointer;
-	}
-
-	a {
-		text-decoration: none;
-		color: inherit;
-	}
-
-	@media (prefers-reduced-motion: reduce) {
-		html:focus-within {
-			scroll-behavior: auto;
-		}
-
-		*,
-		*::before,
-		*::after {
-			animation-duration: 0.01ms !important;
-			animation-iteration-count: 1 !important;
-			transition-duration: 0.01ms !important;
-			scroll-behavior: auto !important;
-		}
-	}
-
-	.container {
-		max-width: 1200px;
-		width: min(100% - 25px, 1080px);
-		margin-inline: auto;
-		box-sizing: border-box;
-	}
-
-	/* Custom style */
-
-	.form-group {
-		margin-bottom: 20px;
-	}
-
-	.btn-primary {
-		background-color: #ff6600;
-		border-color: #ff6600;
-		color: #fff;
-		padding: 10px 20px;
-		border-radius: 5px;
-		cursor: pointer;
-		transition: all 0.3s;
-	}
-
-	.btn-primary:hover {
-		background-color: #ff944d;
-		border-color: #ff944d;
-	}
-
-	.alert-success {
-		display: none;
-		background-color: #d4edda;
-		border-color: #c3e6cb;
-		color: #155724;
-		padding: 10px;
-		margin-bottom: 20px;
-		border: 1px solid transparent;
-		border-radius: .25rem;
-	}
-
-	.alert-danger {
-		display: none;
-		background-color: #f8d7da;
-		border-color: #f5c6cb;
-		color: #721c24;
-		padding: 10px;
-		margin-bottom: 20px;
-		border: 1px solid transparent;
-		border-radius: .25rem;
-	}
-
-	input[type="text"],
-	input[type="datetime-local"] {
-		width: 50%;
-		padding: 10px;
-		border-radius: 5px;
-		border: 1px solid #ccc;
-	}
-
-	input[type="text"]:focus,
-	input[type="datetime-local"]:focus {
-		border-color: #ff6600;
-	}
-
-	h1 {
-		margin-bottom: 20px;
-	}
-</style>
-
-<div class="container">
-	<h1>Register Course</h1>
-
-	<form>
-		<div class="form-group">
-			<input type="text" id="course-name" placeholder="Name" />
+<body>
+	<header>
+		<div class="container">
+			<div class="container__header">
+				<h1>
+					<a href="https://stefanoturcarelli.com">
+						Stefano Turcarelli
+					</a>
+				</h1>
+			</div>
 		</div>
+	</header>
 
-		<div class="form-group">
-			<input type="datetime-local" id="course-start-date" placeholder="Start Date" />
+	<a class="mail" href="mailto:stefano.turcarelli@outlook.com">
+		<img src="./assets/img/mail.png" alt="Send an email">
+	</a>
+
+	<footer>
+		<div class="container">
+			<div class="container__footer">
+				<a href="https://www.linkedin.com/in/stefanoturcarelli" target="_blank">
+					<i class="fa-brands fa-linkedin"></i>
+				</a>
+				<a href="https://github.com/stefanoturcarelli" target="_blank">
+					<i class="fa-brands fa-github"></i>
+				</a>
+			</div>
 		</div>
+	</footer>
 
-		<div class="form-group">
-			<input type="datetime-local" id="course-end-date" placeholder="End Date" />
-		</div>
+	<noscript>
+		<p>This website needs a JavaScript browser</p>
+	</noscript>
 
-		<div class="form-group">
-			<button type="button" class="btn btn-primary" id="register-course-button" onclick="RegisterCourse()">
-				Register
-			</button>
-		</div>
+</body>
 
-		<div>
-			<div class="alert-success" id="alert-success"></div>
-			<div class="alert-danger" id="alert-danger"></div>
-		</div>
-	</form>
-
-</div>
+</html>
