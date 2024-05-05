@@ -37,10 +37,18 @@ section {
   margin-bottom: 5rem;
 }
 
+.section__hero-banner {
+  background-image: url(/assets/img/leo_visions-s9dEqEfIwsA-unsplash.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
 .container__hero-banner {
   display: grid;
   gap: 3rem;
   text-align: center;
+  padding: 30rem 0;
 }
 
 .container__about {
