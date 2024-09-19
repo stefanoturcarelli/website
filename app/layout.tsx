@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { StoreProvider } from "./StoreProvider";
 import { Nav } from "./components/Nav";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 import "./styles/globals.css";
 import styles from "./styles/layout.module.css";
@@ -80,6 +81,7 @@ export default function RootLayout({ children }: Props) {
             </footer>
           </section>
           <SpeedInsights />
+          <Analytics />
         </body>
       </html>
     </StoreProvider>
