@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { ReactNode } from "react";
 import { StoreProvider } from "./StoreProvider";
 import { Nav } from "./components/Nav";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./styles/globals.css";
 import styles from "./styles/layout.module.css";
@@ -13,6 +14,7 @@ interface Props {
 export default function RootLayout({ children }: Props) {
   return (
     <StoreProvider>
+      <SpeedInsights />
       <html lang="en">
         <body>
           <section className={styles.container}>
