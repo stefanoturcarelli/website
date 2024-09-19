@@ -27,7 +27,7 @@ export default function IndexPage() {
           Aires, Argentina. The website is built with HTML, CSS, and JavaScript.
           The website is hosted on GitHub Pages.
           (Under Development) Allow customers to place orders online. Allow the
-          business owner to manage customer, orders, update the menu, and
+          business owner to manage customers, orders, update the menu, and
           display the analytics of the business. The website is being developed
           with Next.js, TypeScript, React, Redux, and Vercel.
           "
@@ -52,7 +52,7 @@ export default function IndexPage() {
           title="JobLink"
           description="A mock job search website that uses web browser storage to login users and
           allow them to post text and images. The website is built with HTML,
-          CSS, and JavaScript. The website is hosted on GitHub Pages. (Under Development) Allow users to to search for jobs by location and job
+          CSS, and JavaScript. The website is hosted on GitHub Pages. (Under Development) Allow users to search for jobs by location and job
           title, create an account, save jobs, and apply to jobs. The website is
           being developed with Next.js, TypeScript, React, Redux, and Vercel."
           link1="https://wellfc.github.io/joblink/"
@@ -64,8 +64,8 @@ export default function IndexPage() {
         <ProjectCard
           title="Essential Oils Website"
           description="A mock website for an essential oils business designed to promote and
-          provide information about essential oils. The website is built
-          WordPress, Xamp, and Divi The website is hosted on GitHub Pages."
+          provide information about essential oils. The website is built with
+          WordPress, Xamp, and Divi. The website is hosted on GitHub Pages."
           link1="https://stefanoturcarelli.github.io/essential-oils-website/"
           link2="https://github.com/stefanoturcarelli/essential-oils-website"
           link1Text="Visit Website"
