@@ -1,33 +1,29 @@
-# Stefano's Website
+# Redux Toolkit TypeScript Example
 
-Welcome to my portfolio website! This is where I showcase my web development projects, skills, and experience.
+This example shows how to integrate Next.js with [Redux Toolkit](https://redux-toolkit.js.org).
 
-## About Me
+**Redux Toolkit**(also known as "RTK" for short) provides a standardized way to write Redux logic. It includes utilities that help simplify many common use cases, including [store setup](https://redux-toolkit.js.org/api/configureStore), [creating reducers and writing immutable update logic](https://redux-toolkit.js.org/api/createreducer), and even [creating entire "slices" of state at once](https://redux-toolkit.js.org/api/createslice). This example showcases each of these features in conjunction with Next.js.
 
-I am a passionate software developer based in Winnipeg, Manitoba, Canada. I specialize in web development and have experience in a variety of technologies, including HTML, CSS, JavaScript, React, and more. I'm constantly learning and exploring new horizons in the tech world.
+## Deploy Your Own
 
-## Projects
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-Here are some of the key projects I've worked on:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-redux&project-name=with-redux&repository-name=with-redux)
 
-1. EduPath - Online Learning Platform
-2. Client Detection
-3. Custom Modal Dialog
-4. Grid Toggle Menu
-5. Food Catering Business
+## How to Use
 
-## Technologies used
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+```bash
+npx create-next-app --example with-redux with-redux-app
+```
 
-## Contact
+```bash
+yarn create next-app --example with-redux with-redux-app
+```
 
-- **Email:** hello@stefanoturcarelli.com
-- **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/stefanoturcarelli)
-- **GitHub:** [My GitHub Profile](https://github.com/stefanoturcarelli)
+```bash
+pnpm create next-app --example with-redux with-redux-app
+```
 
-Feel free to explore my projects and get in touch if you'd like to collaborate or have any questions.
-
-Thank you for visiting my portfolio website!
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
