@@ -56,7 +56,7 @@ export default function IndexPage() {
           title, create an account, save jobs, and apply to jobs. The website is
           being developed with Next.js, TypeScript, React, Redux, and Vercel."
           link1="https://wellfc.github.io/joblink/"
-          link2="wellfc.github.io/joblink/"
+          link2="https://wellfc.github.io/joblink/"
           link1Text="Visit Website"
           link2Text="Repository"
         />
