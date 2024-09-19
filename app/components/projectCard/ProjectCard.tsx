@@ -1,3 +1,6 @@
+"use client";
+
+import { RepositoryButton } from "../RepositoryButton/RepositoryButton";
 import styles from "./ProjectCard.module.css";
 
 interface ProjectCardProps {
@@ -27,9 +30,7 @@ export const ProjectCard = ({
         <a className={styles.link} href={link1} target="_blank">
           {link1Text}
         </a>
-        <a className={styles.link} href={link2} target="_blank">
-          {link2Text}
-        </a>
+        <RepositoryButton link2={link2} link2Text={link2Text} />
       </div>
     </div>
   );
