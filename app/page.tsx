@@ -60,6 +60,7 @@ export default function IndexPage() {
           link1Text="Visit Website"
           link2Text="Repository"
         />
+        <br />
         <ProjectCard
           title="Essential Oils Website"
           description="A mock website for an essential oils business designed to promote and
