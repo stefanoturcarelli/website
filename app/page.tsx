@@ -19,6 +19,7 @@ export default function IndexPage() {
         <br />
         <br />
         <h2>Projects</h2>
+        <br />
         <ProjectCard
           title="Catering Business Website"
           description=" A website for a catering business designed to promote and provide
