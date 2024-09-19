@@ -16,22 +16,22 @@ export default function RootLayout({ children }: Props) {
       <html lang="en">
         <body>
           <section className={styles.container}>
-            <Nav />
+            {/* <Nav /> */}
 
             <header className={styles.header}>
-              <Image
+              {/* <Image
                 src="/logo.svg"
                 className={styles.logo}
                 alt="logo"
                 width={100}
                 height={100}
-              />
+              /> */}
             </header>
 
             <main className={styles.main}>{children}</main>
 
             <footer className={styles.footer}>
-              <span>Learn </span>
+              {/* <span>Learn </span>
               <a
                 className={styles.link}
                 href="https://reactjs.org"
@@ -75,7 +75,7 @@ export default function RootLayout({ children }: Props) {
                 rel="noopener noreferrer"
               >
                 Reselect
-              </a>
+              </a> */}
             </footer>
           </section>
         </body>
