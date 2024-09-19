@@ -14,7 +14,6 @@ interface Props {
 export default function RootLayout({ children }: Props) {
   return (
     <StoreProvider>
-      <SpeedInsights />
       <html lang="en">
         <body>
           <section className={styles.container}>
@@ -27,7 +26,7 @@ export default function RootLayout({ children }: Props) {
                 alt="logo"
                 width={100}
                 height={100}
-              /> */}
+                /> */}
             </header>
 
             <main className={styles.main}>{children}</main>
@@ -80,6 +79,7 @@ export default function RootLayout({ children }: Props) {
               </a> */}
             </footer>
           </section>
+          <SpeedInsights />
         </body>
       </html>
     </StoreProvider>
