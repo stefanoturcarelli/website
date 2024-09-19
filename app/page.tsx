@@ -51,12 +51,12 @@ export default function IndexPage() {
         <ProjectCard
           title="JobLink"
           description="A mock job search website that uses web browser storage to login users and
-          allow them to post text and images. The website is built with HTML,
+          allow them to post text and images (username: jobseeker password: hired1234). The website is built with HTML,
           CSS, and JavaScript. The website is hosted on GitHub Pages. (Under Development) Allow users to search for jobs by location and job
           title, create an account, save jobs, and apply to jobs. The website is
           being developed with Next.js, TypeScript, React, Redux, and Vercel."
           link1="https://wellfc.github.io/joblink/"
-          link2="https://wellfc.github.io/joblink/"
+          link2="https://github.com/stefanoturcarelli/joblink-employment-focused-social-media-platform"
           link1Text="Visit Website"
           link2Text="Repository"
         />
