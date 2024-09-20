@@ -1,5 +1,6 @@
 "use client";
 
+import { RegularButton } from "../RegularButton/RegularButton";
 import { RepositoryButton } from "../RepositoryButton/RepositoryButton";
 import styles from "./ProjectCard.module.css";
 
@@ -33,9 +34,7 @@ export const ProjectCard = ({
           </p>
         </div>
         <div className={styles.buttonsContainer}>
-          <a className={styles.link} href={link1} target="_blank">
-            {link1Text}
-          </a>
+          <RegularButton link1={link1} link1Text={link1Text} />
           <RepositoryButton link2={link2} link2Text={link2Text} />
         </div>
       </div>
