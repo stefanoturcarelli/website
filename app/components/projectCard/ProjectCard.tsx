@@ -11,6 +11,7 @@ interface ProjectCardProps {
   readonly link2: string;
   readonly link1Text: string;
   readonly link2Text: string;
+  readonly image?: string;
 }
 
 export const ProjectCard = ({
@@ -20,11 +21,18 @@ export const ProjectCard = ({
   link2,
   link1Text,
   link2Text,
+  image,
 }: ProjectCardProps) => {
   return (
     <>
       <div className={styles.card}>
-        <div className={styles.card_image}></div>
+        <div className={styles.card_image}>
+          <img
+            src={image ? image : "https://via.placeholder.com/250"}
+            alt="Project Image"
+            className={styles.image}
+          />
+        </div>
         <div className={styles.heading}>
           <h3>{title ? title : "Title"}</h3>
         </div>
