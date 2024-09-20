@@ -21,17 +21,24 @@ export const ProjectCard = ({
   link2Text,
 }: ProjectCardProps) => {
   return (
-    <div className={styles.card}>
-      <h3 className={styles.title}>{title ? title : "Title"}</h3>
-      <p className={styles.description}>
-        {description ? description : "Description"}
-      </p>
-      <div className={styles.linkContainer}>
-        <a className={styles.link} href={link1} target="_blank">
-          {link1Text}
-        </a>
-        <RepositoryButton link2={link2} link2Text={link2Text} />
+    <>
+      <div className={styles.card}>
+        <div className={styles.card_image}></div>
+        <div className={styles.heading}>
+          <h3>{title ? title : "Title"}</h3>
+        </div>
+        <div className={styles.descriptionContainer}>
+          <p className={styles.description}>
+            {description ? description : "Description"}
+          </p>
+        </div>
+        <div className={styles.buttonsContainer}>
+          <a className={styles.link} href={link1} target="_blank">
+            {link1Text}
+          </a>
+          <RepositoryButton link2={link2} link2Text={link2Text} />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
