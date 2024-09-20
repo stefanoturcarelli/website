@@ -19,6 +19,7 @@ export const ProjectCardSection = () => {
         link2="https://github.com/stefanoturcarelli/catering-bien-casero"
         link1Text="Visit Website"
         link2Text="Repository"
+        image="/images/catering_bien_casero.png"
       />
       <ProjectCard
         title="Fast Typing Game"
