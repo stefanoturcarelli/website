@@ -30,6 +30,7 @@ export const ProjectCardSection = () => {
         link2="https://github.com/stefanoturcarelli/fast-typing-game"
         link1Text="Play Game"
         link2Text="Repository"
+        image="/images/type_runner.png"
       />
       <ProjectCard
         title="JobLink"
@@ -42,6 +43,7 @@ export const ProjectCardSection = () => {
         link2="https://github.com/stefanoturcarelli/joblink-employment-focused-social-media-platform"
         link1Text="Visit Website"
         link2Text="Repository"
+        image="/images/joblink.png"
       />
       <ProjectCard
         title="Essential Oils Website"
@@ -52,6 +54,7 @@ export const ProjectCardSection = () => {
         link2="https://github.com/stefanoturcarelli/essential-oils-website"
         link1Text="Visit Website"
         link2Text="Repository"
+        image="/images/essential_oils.png"
       />
     </section>
   );
